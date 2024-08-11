@@ -10,8 +10,10 @@ namespace EF_01
     internal class ApplicationDBContext : DbContext
     {
         protected override void OnConfiguring(DbContextOptionsBuilder options)
-        {
-            options.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=master;Integrated Security=True");
+        {                                                                          // name of database  
+            options.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EFCoreLearning;Integrated Security=True");
         }
+        public DbSet<Employee> Employees { get; set; }
+
     }
 }
