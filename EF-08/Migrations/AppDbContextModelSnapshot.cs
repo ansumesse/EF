@@ -35,7 +35,7 @@ namespace EF_08.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("Blogs", (string)null);
                 });
 #pragma warning restore 612, 618
         }
