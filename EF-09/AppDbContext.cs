@@ -17,6 +17,7 @@ namespace EF_09
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<AudityEntity>(); // third way to add entity to Model
             new BlogEntityTypeConfiguration().Configure(modelBuilder.Entity<Blog>());
         }
         public DbSet<Blog> Blogs2 { get; set; }
