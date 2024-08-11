@@ -11,7 +11,7 @@ namespace EF_08.Models
     {
         public int Id { get; set; }
 
-        [Required]
+        
         public string Url { get; set; }
     }
 }

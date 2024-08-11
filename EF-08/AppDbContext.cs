@@ -1,4 +1,5 @@
-﻿using EF_08.Models;
+﻿using EF_08.Configuration;
+using EF_08.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -14,12 +15,13 @@ namespace EF_08
         {
             optionsBuilder.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EFCoreLearning;Integrated Security=True");
         }
-        //protected override void OnModelCreating(ModelBuilder modelBuilder)
-        //{
-        //    modelBuilder.Entity<Blog>()
-        //        .Property(x => x.Url)
-        //        .IsRequired();
-        //}
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            //modelBuilder.Entity<Blog>()
+            //    .Property(x => x.Url)
+            //    .IsRequired();
+            new BlogEntityTypeConfiguration().Configure(modelBuilder.Entity<Blog>());
+        }
         public DbSet<Blog> Blogs { get; set; }
     }
 }

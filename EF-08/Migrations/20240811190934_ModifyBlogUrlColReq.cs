@@ -5,7 +5,7 @@
 namespace EF_08.Migrations
 {
     /// <inheritdoc />
-    public partial class AddBlogsTableUrlReqAnnotation : Migration
+    public partial class ModifyBlogUrlColReq : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

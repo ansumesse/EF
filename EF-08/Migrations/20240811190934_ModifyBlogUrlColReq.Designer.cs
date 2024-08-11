@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_08.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240811175541_AddBlogsTableUrlReqAnnotation")]
-    partial class AddBlogsTableUrlReqAnnotation
+    [Migration("20240811190934_ModifyBlogUrlColReq")]
+    partial class ModifyBlogUrlColReq
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
