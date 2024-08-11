@@ -3,16 +3,18 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Migrations\\20240811213712_AddBlogTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF-09\\Migrations\\20240811213712_AddBlogTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EFCoreLearning/True/SqlTable/dbo.Blogs2.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Migrations\\20240811214113_AddPostsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF-09\\Migrations\\20240811214113_AddPostsTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EFCoreLearning/True/SqlTable/dbo.Post.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,8 +25,8 @@
       "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\audityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\audityentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +36,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20240811213712_AddBlogTable.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Migrations\\20240811213712_AddBlogTable.cs",
-              "RelativeDocumentMoniker": "EF-09\\Migrations\\20240811213712_AddBlogTable.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Migrations\\20240811213712_AddBlogTable.cs",
-              "RelativeToolTip": "EF-09\\Migrations\\20240811213712_AddBlogTable.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "dbo.Post [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EFCoreLearning/True/SqlTable/dbo.Post.sql",
+              "ToolTip": "dbo.Post [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-11T21:43:24.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20240811214113_AddPostsTable.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Migrations\\20240811214113_AddPostsTable.cs",
+              "RelativeDocumentMoniker": "EF-09\\Migrations\\20240811214113_AddPostsTable.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Migrations\\20240811214113_AddPostsTable.cs",
+              "RelativeToolTip": "EF-09\\Migrations\\20240811214113_AddPostsTable.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T21:37:12.57Z",
+              "WhenOpened": "2024-08-11T21:41:13.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "dbo.Blogs2 [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/EFCoreLearning/True/SqlTable/dbo.Blogs2.sql",
+              "ToolTip": "dbo.Blogs2 [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-11T21:39:47.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EF-09\\AppDbContext.cs",
@@ -65,19 +87,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "AudityEntity.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\AudityEntity.cs",
-              "RelativeDocumentMoniker": "EF-09\\Models\\AudityEntity.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\AudityEntity.cs",
-              "RelativeToolTip": "EF-09\\Models\\AudityEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T21:02:02.828Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Post.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Post.cs",
               "RelativeDocumentMoniker": "EF-09\\Models\\Post.cs",
@@ -90,20 +99,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Blog.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Blog.cs",
               "RelativeDocumentMoniker": "EF-09\\Models\\Blog.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Blog.cs",
               "RelativeToolTip": "EF-09\\Models\\Blog.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T20:58:41.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Program.cs",
               "RelativeDocumentMoniker": "EF-09\\Program.cs",
@@ -111,8 +120,7 @@
               "RelativeToolTip": "EF-09\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T20:57:53.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-11T20:57:53.742Z"
             }
           ]
         }
