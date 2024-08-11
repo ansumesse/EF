@@ -4,7 +4,10 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var dbcontext = new ApplicationDBContext();
+            var emp = new Employee() { Name = "Anas" };
+            dbcontext.Employees.Add(emp);
+            dbcontext.SaveChanges();
         }
     }
 }
