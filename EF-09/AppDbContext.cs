@@ -51,7 +51,11 @@ namespace EF_09
             //modelBuilder.Entity<Blog>()
             //    .Property(x => x.Url)
             //    .HasComment("this a new comment");
+
+            //modelBuilder.Entity<Book>()
+            //    .HasKey(x => x.BookKey); // Set primary key
         }
         public DbSet<Blog> Blogs2 { get; set; }
+        public DbSet<Book> books { get; set; }
     }
 }
