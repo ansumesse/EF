@@ -33,7 +33,13 @@ namespace EF_09
 
             // modelBuilder.HasDefaultSchema("Blogging"); // Change the default Schema 
 
-            modelBuilder.Entity<Blog>().Ignore(x => x.AddedOn); // Exclude property using fluent API
+            // modelBuilder.Entity<Blog>().Ignore(x => x.AddedOn); // Exclude property using fluent API
+
+            //modelBuilder.Entity<Blog>()
+            //    .Property(x => x.Url)
+            //    .HasColumnName("BlogUrl"); // Change Column name
+
+
         }
         public DbSet<Blog> Blogs2 { get; set; }
     }

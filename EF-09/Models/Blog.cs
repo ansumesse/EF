@@ -11,6 +11,7 @@ namespace EF_09.Models
     internal class Blog
     {
         public int Id { get; set; }
+        // [Column("BlogUrl")] // Change column name 
         public string Url { get; set; }
 
         [NotMapped] // Exclude property using Annotation
