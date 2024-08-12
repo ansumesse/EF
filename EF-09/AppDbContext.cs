@@ -67,8 +67,15 @@ namespace EF_09
                 .Property(x => x.AddedOn)
                 .HasDefaultValueSql("GETDATE()");
 
+            modelBuilder.Entity<Author>()
+                .Property(x => x.DisplayName)
+                .HasComputedColumnSql("[FIRSTNAME] + ', ' + [LASTNAME]");
+
+
+
         }
         public DbSet<Blog> Blogs2 { get; set; }
         public DbSet<Book> books { get; set; }
+        public DbSet<Author> Authors { get; set; }
     }
 }

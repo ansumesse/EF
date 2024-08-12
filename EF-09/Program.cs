@@ -9,6 +9,8 @@ namespace EF_09
             var context = new AppDbContext();
             var blog = new Blog() { Url = "google.com" };
             context.Blogs2.Add(blog);
+            var author = new Author() { FirstName = "Mohamed", LastName = "Anas" };
+            context.Authors.Add(author);
             context.SaveChanges();
         }
     }
