@@ -32,6 +32,8 @@ namespace EF_09
             //    .ToTable("Blogs", schema: "Blogging"); // Changing schema by fluent API
 
             // modelBuilder.HasDefaultSchema("Blogging"); // Change the default Schema 
+
+            modelBuilder.Entity<Blog>().Ignore(x => x.AddedOn); // Exclude property using fluent API
         }
         public DbSet<Blog> Blogs2 { get; set; }
     }
