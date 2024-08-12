@@ -71,11 +71,14 @@ namespace EF_09
                 .Property(x => x.DisplayName)
                 .HasComputedColumnSql("[FIRSTNAME] + ', ' + [LASTNAME]");
 
-
+            modelBuilder.Entity<Category>()
+                .Property(x => x.Id)
+                .ValueGeneratedOnAdd();
 
         }
         public DbSet<Blog> Blogs2 { get; set; }
         public DbSet<Book> books { get; set; }
         public DbSet<Author> Authors { get; set; }
+        public DbSet<Category> Categories { get; set; }
     }
 }

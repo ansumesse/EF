@@ -7,24 +7,12 @@
       "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\author.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Author.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Author.cs",
-              "RelativeDocumentMoniker": "EF-09\\Models\\Author.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Author.cs",
-              "RelativeToolTip": "EF-09\\Models\\Author.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "EF-09\\Models\\Category.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Category.cs",
+              "RelativeToolTip": "EF-09\\Models\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T03:18:21.57Z",
+              "WhenOpened": "2024-08-12T04:23:55.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Program.cs",
               "RelativeDocumentMoniker": "EF-09\\Program.cs",
@@ -59,20 +47,7 @@
               "RelativeToolTip": "EF-09\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T03:04:08.05Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Book.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Book.cs",
-              "RelativeDocumentMoniker": "EF-09\\Models\\Book.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Book.cs",
-              "RelativeToolTip": "EF-09\\Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T02:28:36.348Z"
+              "WhenOpened": "2024-08-12T03:04:08.05Z"
             },
             {
               "$type": "Document",
@@ -82,34 +57,10 @@
               "RelativeDocumentMoniker": "EF-09\\AppDbContext.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\AppDbContext.cs",
               "RelativeToolTip": "EF-09\\AppDbContext.cs",
-              "ViewState": "AQIAADcAAAAAAAAAAAAowEQAAAAAAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAowEsAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T21:20:35.666Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Post.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Post.cs",
-              "RelativeDocumentMoniker": "EF-09\\Models\\Post.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Post.cs",
-              "RelativeToolTip": "EF-09\\Models\\Post.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T21:00:23.205Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Blog.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Blog.cs",
-              "RelativeDocumentMoniker": "EF-09\\Models\\Blog.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Blog.cs",
-              "RelativeToolTip": "EF-09\\Models\\Blog.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAwBgAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T20:58:41.973Z"
             }
           ]
         }
