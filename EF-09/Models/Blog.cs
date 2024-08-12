@@ -12,7 +12,7 @@ namespace EF_09.Models
         public int Id { get; set; }
         public string Url { get; set; }
 
-        [NotMapped] // Excluding Post from Model by annotaions
+        // [NotMapped] // Excluding Post from Model by annotaions
         public List<Post> Posts { get; set; } // Called Navigation property that makes post a model domain
     }
 }
