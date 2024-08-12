@@ -35,7 +35,7 @@ namespace EF_09.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("AudityEntity");
+                    b.ToTable("AudityEntity", (string)null);
                 });
 
             modelBuilder.Entity("EF_09.Models.Blog", b =>
@@ -52,7 +52,7 @@ namespace EF_09.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Blogs2");
+                    b.ToTable("Blogs2", (string)null);
                 });
 
             modelBuilder.Entity("EF_09.Models.Post", b =>
@@ -78,7 +78,7 @@ namespace EF_09.Migrations
 
                     b.HasIndex("BlogId");
 
-                    b.ToTable("Post");
+                    b.ToTable("Post", (string)null);
                 });
 
             modelBuilder.Entity("EF_09.Models.Post", b =>

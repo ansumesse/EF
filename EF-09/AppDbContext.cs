@@ -44,6 +44,10 @@ namespace EF_09
             //    eb.Property(x => x.Url).HasColumnType("varchar");
             //});
 
+            modelBuilder.Entity<Blog>()
+                .Property(x => x.Url)
+                .HasMaxLength(200);
+
         }
         public DbSet<Blog> Blogs2 { get; set; }
     }

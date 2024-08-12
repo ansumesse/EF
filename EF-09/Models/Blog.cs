@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,11 @@ namespace EF_09.Models
    // [Table("Blogs", Schema = "Blogging")] // Change Schema name By Annotation
     internal class Blog
     {
+       
         public int Id { get; set; }
         // [Column("BlogUrl")] // Change column name 
         // [Column(TypeName = "varchar(50)")]
+        // [MaxLength(200)]
         public string Url { get; set; }
 
         [NotMapped] // Exclude property using Annotation
