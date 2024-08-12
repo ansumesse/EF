@@ -35,7 +35,7 @@ namespace EF_24.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("Blogs", (string)null);
                 });
 
             modelBuilder.Entity("EF_24.Models.BlogImage", b =>
@@ -62,7 +62,7 @@ namespace EF_24.Migrations
                     b.HasIndex("Blog_Id")
                         .IsUnique();
 
-                    b.ToTable("BlogImage");
+                    b.ToTable("BlogImage", (string)null);
                 });
 
             modelBuilder.Entity("EF_24.Models.BlogImage", b =>

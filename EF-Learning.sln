@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF-08", "EF-08\EF-08.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF-09", "EF-09\EF-09.csproj", "{8136BA00-6588-4DE2-9A49-4CF9315EB191}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-24", "EF-24\EF-24.csproj", "{07B85625-349E-46D6-9317-9E9F88A1358E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EF-24", "EF-24\EF-24.csproj", "{07B85625-349E-46D6-9317-9E9F88A1358E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EF-25", "EF-25\EF-25.csproj", "{8FDB4086-ADD3-44DE-B808-0B93E29E7CAA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{07B85625-349E-46D6-9317-9E9F88A1358E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07B85625-349E-46D6-9317-9E9F88A1358E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07B85625-349E-46D6-9317-9E9F88A1358E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FDB4086-ADD3-44DE-B808-0B93E29E7CAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FDB4086-ADD3-44DE-B808-0B93E29E7CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FDB4086-ADD3-44DE-B808-0B93E29E7CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FDB4086-ADD3-44DE-B808-0B93E29E7CAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
