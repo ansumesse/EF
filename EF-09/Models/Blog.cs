@@ -22,6 +22,7 @@ namespace EF_09.Models
 
         [NotMapped] // Exclude property using Annotation
         public DateTime AddedOn { get; set; }
+        public int Rate { get; set; }
 
         // [NotMapped] // Excluding Post from Model by annotaions
         public List<Post> Posts { get; set; } // Called Navigation property that makes post a model domain

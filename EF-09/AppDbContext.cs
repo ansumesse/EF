@@ -56,8 +56,16 @@ namespace EF_09
               .HasKey(x => x.BookKey) // Set primary key
              .HasName("PK_BookKey");
 
-            modelBuilder.Entity<Book>()
-                .HasKey(x => new { x.Name, x.BookKey }); // Composite Key
+            //modelBuilder.Entity<Book>()
+            //    .HasKey(x => new { x.Name, x.BookKey }); // Composite Key
+
+            modelBuilder.Entity<Blog>()
+                .Property(x => x.Rate)
+                .HasDefaultValue(5);
+
+            modelBuilder.Entity<Blog>()
+                .Property(x => x.AddedOn)
+                .HasDefaultValueSql("GETDATE()");
 
         }
         public DbSet<Blog> Blogs2 { get; set; }
