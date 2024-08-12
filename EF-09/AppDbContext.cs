@@ -44,10 +44,13 @@ namespace EF_09
             //    eb.Property(x => x.Url).HasColumnType("varchar");
             //});
 
-            modelBuilder.Entity<Blog>()
-                .Property(x => x.Url)
-                .HasMaxLength(200);
+            //modelBuilder.Entity<Blog>()
+            //    .Property(x => x.Url)
+            //    .HasMaxLength(200);
 
+            //modelBuilder.Entity<Blog>()
+            //    .Property(x => x.Url)
+            //    .HasComment("this a new comment");
         }
         public DbSet<Blog> Blogs2 { get; set; }
     }
