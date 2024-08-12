@@ -9,7 +9,7 @@ namespace EF_09.Models
 {
     internal class Book
     {
-        [Key]
+       // [Key]
         public int BookKey { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }

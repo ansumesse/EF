@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Migrations\\20240812024053_AddBookTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF-09\\Migrations\\20240812024053_AddBookTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\migrations\\20240812024053_addbooktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\migrations\\20240812024053_addbooktable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-09\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8136BA00-6588-4DE2-9A49-4CF9315EB191}|EF-09\\EF-09.csproj|solutionrelative:ef-09\\models\\blog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "20240812024053_AddBookTable.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Migrations\\20240812024053_AddBookTable.cs",
               "RelativeDocumentMoniker": "EF-09\\Migrations\\20240812024053_AddBookTable.cs",
@@ -53,27 +53,27 @@
               "RelativeDocumentMoniker": "EF-09\\Models\\Book.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Book.cs",
               "RelativeToolTip": "EF-09\\Models\\Book.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T02:28:36.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\AppDbContext.cs",
               "RelativeDocumentMoniker": "EF-09\\AppDbContext.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\AppDbContext.cs",
               "RelativeToolTip": "EF-09\\AppDbContext.cs",
-              "ViewState": "AQIAACQAAAAAAAAAAAAowDgAAAAhAAAA",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowDsAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T21:20:35.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Post.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Post.cs",
               "RelativeDocumentMoniker": "EF-09\\Models\\Post.cs",
@@ -81,11 +81,12 @@
               "RelativeToolTip": "EF-09\\Models\\Post.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-11T21:00:23.205Z"
+              "WhenOpened": "2024-08-11T21:00:23.205Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Blog.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-09\\Models\\Blog.cs",
               "RelativeDocumentMoniker": "EF-09\\Models\\Blog.cs",

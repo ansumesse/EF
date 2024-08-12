@@ -55,6 +55,10 @@ namespace EF_09
             modelBuilder.Entity<Book>()
               .HasKey(x => x.BookKey) // Set primary key
              .HasName("PK_BookKey");
+
+            modelBuilder.Entity<Book>()
+                .HasKey(x => new { x.Name, x.BookKey }); // Composite Key
+
         }
         public DbSet<Blog> Blogs2 { get; set; }
         public DbSet<Book> books { get; set; }
