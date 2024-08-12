@@ -70,7 +70,8 @@ namespace EF_09.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("BookKey");
+                    b.HasKey("BookKey")
+                        .HasName("PK_BookKey");
 
                     b.ToTable("books");
                 });

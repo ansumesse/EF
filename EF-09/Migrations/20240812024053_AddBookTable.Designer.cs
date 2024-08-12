@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_09.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20240812023131_AddBooksTable")]
-    partial class AddBooksTable
+    [Migration("20240812024053_AddBookTable")]
+    partial class AddBookTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -73,7 +73,8 @@ namespace EF_09.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.HasKey("BookKey");
+                    b.HasKey("BookKey")
+                        .HasName("PK_BookKey");
 
                     b.ToTable("books");
                 });

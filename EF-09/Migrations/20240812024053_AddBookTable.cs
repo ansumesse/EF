@@ -5,7 +5,7 @@
 namespace EF_09.Migrations
 {
     /// <inheritdoc />
-    public partial class AddBooksTable : Migration
+    public partial class AddBookTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,7 +21,7 @@ namespace EF_09.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_books", x => x.BookKey);
+                    table.PrimaryKey("PK_BookKey", x => x.BookKey);
                 });
         }
 
