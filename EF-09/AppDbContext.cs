@@ -39,6 +39,10 @@ namespace EF_09
             //    .Property(x => x.Url)
             //    .HasColumnName("BlogUrl"); // Change Column name
 
+            //modelBuilder.Entity<Blog>(eb =>
+            //{
+            //    eb.Property(x => x.Url).HasColumnType("varchar");
+            //});
 
         }
         public DbSet<Blog> Blogs2 { get; set; }

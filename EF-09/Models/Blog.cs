@@ -12,6 +12,7 @@ namespace EF_09.Models
     {
         public int Id { get; set; }
         // [Column("BlogUrl")] // Change column name 
+        // [Column(TypeName = "varchar(50)")]
         public string Url { get; set; }
 
         [NotMapped] // Exclude property using Annotation
