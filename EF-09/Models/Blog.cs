@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace EF_09.Models
 {
+   // [Table("Blogs", Schema = "Blogging")] // Change Schema name By Annotation
     internal class Blog
     {
         public int Id { get; set; }
