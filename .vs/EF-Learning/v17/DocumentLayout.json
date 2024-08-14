@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Migrations\\20240812221645_AddCarAndRecordSalesTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF-26\\Migrations\\20240812221645_AddCarAndRecordSalesTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Migrations\\20240814001911_AddM-MCarAndRecordSalesTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EF-26\\Migrations\\20240814001911_AddM-MCarAndRecordSalesTables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-26\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|solutionrelative:ef-26\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-26\\models\\recordsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|solutionrelative:ef-26\\models\\recordsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-26\\models\\carrecordsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|solutionrelative:ef-26\\models\\carrecordsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-26\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|solutionrelative:ef-26\\models\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-26\\models\\recordsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|solutionrelative:ef-26\\models\\recordsales.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DED78A3D-A585-4A3E-A80A-5AC7251A3EA4}|EF-26\\EF-26.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-26\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,14 +39,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20240812221645_AddCarAndRecordSalesTables.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Migrations\\20240812221645_AddCarAndRecordSalesTables.cs",
-              "RelativeDocumentMoniker": "EF-26\\Migrations\\20240812221645_AddCarAndRecordSalesTables.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Migrations\\20240812221645_AddCarAndRecordSalesTables.cs",
-              "RelativeToolTip": "EF-26\\Migrations\\20240812221645_AddCarAndRecordSalesTables.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "20240814001911_AddM-MCarAndRecordSalesTables.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Migrations\\20240814001911_AddM-MCarAndRecordSalesTables.cs",
+              "RelativeDocumentMoniker": "EF-26\\Migrations\\20240814001911_AddM-MCarAndRecordSalesTables.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Migrations\\20240814001911_AddM-MCarAndRecordSalesTables.cs",
+              "RelativeToolTip": "EF-26\\Migrations\\20240814001911_AddM-MCarAndRecordSalesTables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T22:16:45.105Z",
+              "WhenOpened": "2024-08-14T00:19:11.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CarRecordSales.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Models\\CarRecordSales.cs",
+              "RelativeDocumentMoniker": "EF-26\\Models\\CarRecordSales.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Models\\CarRecordSales.cs",
+              "RelativeToolTip": "EF-26\\Models\\CarRecordSales.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAtwA4AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-13T23:32:25.18Z",
               "EditorCaption": ""
             },
             {
@@ -53,9 +70,22 @@
               "RelativeDocumentMoniker": "EF-26\\Models\\Car.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Models\\Car.cs",
               "RelativeToolTip": "EF-26\\Models\\Car.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAAIAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T21:23:30.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RecordSales.cs",
+              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Models\\RecordSales.cs",
+              "RelativeDocumentMoniker": "EF-26\\Models\\RecordSales.cs",
+              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Models\\RecordSales.cs",
+              "RelativeToolTip": "EF-26\\Models\\RecordSales.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T21:25:32.286Z",
               "EditorCaption": ""
             },
             {
@@ -66,27 +96,14 @@
               "RelativeDocumentMoniker": "EF-26\\AppDbContext.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\AppDbContext.cs",
               "RelativeToolTip": "EF-26\\AppDbContext.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAIwBMAAAAtAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAA8wBsAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-12T21:29:12.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RecordSales.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Models\\RecordSales.cs",
-              "RelativeDocumentMoniker": "EF-26\\Models\\RecordSales.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Models\\RecordSales.cs",
-              "RelativeToolTip": "EF-26\\Models\\RecordSales.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-12T21:25:32.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-26\\Program.cs",
               "RelativeDocumentMoniker": "EF-26\\Program.cs",

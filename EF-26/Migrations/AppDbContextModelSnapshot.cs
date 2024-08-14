@@ -24,15 +24,11 @@ namespace EF_26.Migrations
 
             modelBuilder.Entity("EF_26.Models.Car", b =>
                 {
-                    b.Property<int>("CarId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CarId"));
-
                     b.Property<string>("LicensePlate")
-                        .IsRequired()
                         .HasColumnType("nvarchar(450)");
+
+                    b.Property<int>("CarId")
+                        .HasColumnType("int");
 
                     b.Property<string>("Make")
                         .IsRequired()
@@ -42,9 +38,24 @@ namespace EF_26.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("CarId");
+                    b.HasKey("LicensePlate");
 
-                    b.ToTable("Car");
+                    b.ToTable("Cars2");
+                });
+
+            modelBuilder.Entity("EF_26.Models.CarRecordSales", b =>
+                {
+                    b.Property<int>("RecordSaleId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("LicensePlate")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("RecordSaleId", "LicensePlate");
+
+                    b.HasIndex("LicensePlate");
+
+                    b.ToTable("CarRecordSales");
                 });
 
             modelBuilder.Entity("EF_26.Models.RecordSales", b =>
@@ -60,33 +71,43 @@ namespace EF_26.Migrations
 
                     b.Property<string>("LicensePlate")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("RecordSaleId");
 
-                    b.HasIndex("LicensePlate");
-
                     b.ToTable("RecordSales");
                 });
 
-            modelBuilder.Entity("EF_26.Models.RecordSales", b =>
+            modelBuilder.Entity("EF_26.Models.CarRecordSales", b =>
                 {
-                    b.HasOne("EF_26.Models.Car", "Car")
-                        .WithMany("RecordSales")
+                    b.HasOne("EF_26.Models.Car", "Cars2")
+                        .WithMany("carRecordSales")
                         .HasForeignKey("LicensePlate")
-                        .HasPrincipalKey("LicensePlate")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("Car");
+                    b.HasOne("EF_26.Models.RecordSales", "RecordSales")
+                        .WithMany("carRecordSales")
+                        .HasForeignKey("RecordSaleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cars2");
+
+                    b.Navigation("RecordSales");
                 });
 
             modelBuilder.Entity("EF_26.Models.Car", b =>
                 {
-                    b.Navigation("RecordSales");
+                    b.Navigation("carRecordSales");
+                });
+
+            modelBuilder.Entity("EF_26.Models.RecordSales", b =>
+                {
+                    b.Navigation("carRecordSales");
                 });
 #pragma warning restore 612, 618
         }

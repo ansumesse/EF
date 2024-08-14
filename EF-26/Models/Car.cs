@@ -14,6 +14,7 @@ namespace EF_26.Models
         public string LicensePlate { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
-        public List<RecordSales> RecordSales { get; set; }
+        // public List<RecordSales> RecordSales { get; set; }
+        public List<CarRecordSales> carRecordSales { get; set; }
     }
 }

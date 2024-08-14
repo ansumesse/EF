@@ -16,14 +16,32 @@ namespace EF_26
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Car>()
+                  .HasKey(x => x.LicensePlate);
             modelBuilder.Entity<RecordSales>()
                 .HasKey(x => x.RecordSaleId);
-            modelBuilder.Entity<RecordSales>()
-                .HasOne(x => x.Car)
-                .WithMany(x => x.RecordSales)
-                .HasForeignKey(x => x.LicensePlate)
-                .HasPrincipalKey(x => x.LicensePlate);
+
+            modelBuilder.Entity<CarRecordSales>()
+                .HasKey(x => new { x.RecordSaleId, x.LicensePlate });
+
+            modelBuilder.Entity<CarRecordSales>()
+                .HasOne(x => x.Cars2)
+                .WithMany(x => x.carRecordSales)
+                .HasForeignKey(x => x.LicensePlate);
+             modelBuilder.Entity<CarRecordSales>()
+                .HasOne(x => x.RecordSales)
+                .WithMany(x => x.carRecordSales)
+                .HasForeignKey(x => x.RecordSaleId);
+            
+
+               
+                
+                
+                
+                
+
         }
-        public DbSet<RecordSales> RecordSales { get; set; }
+         public DbSet<RecordSales> RecordSales { get; set; }
+         public DbSet<Car> Cars2 { get; set; }
     }
 }

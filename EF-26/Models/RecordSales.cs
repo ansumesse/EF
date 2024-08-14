@@ -14,6 +14,8 @@ namespace EF_26.Models
         public DateTime DateSold { get; set; }
         public decimal Price { get; set; }
         public string LicensePlate { get; set; }
-        public Car Car { get; set; }
+        // public List<Car> Cars2 { get; set; }
+        public List<CarRecordSales> carRecordSales { get; set; }
+
     }
 }
