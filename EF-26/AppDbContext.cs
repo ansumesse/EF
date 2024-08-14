@@ -34,7 +34,10 @@ namespace EF_26
                 .HasForeignKey(x => x.RecordSaleId);
 
             modelBuilder.Entity<Car>()
-                .HasIndex(x => x.CarId);
+                .HasIndex(x => x.CarId)
+                .HasDatabaseName("CarIndex")
+                .IsUnique(true)
+                .HasFilter("[CARID] IS NOT NULL");
             
 
                
