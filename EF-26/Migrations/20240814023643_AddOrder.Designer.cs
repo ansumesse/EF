@@ -4,6 +4,7 @@ using EF_26;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EF_26.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240814023643_AddOrder")]
+    partial class AddOrder
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -22,9 +25,7 @@ namespace EF_26.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.HasSequence<int>("OrderNumber")
-                .StartsAt(100L)
-                .IncrementsBy(2);
+            modelBuilder.HasSequence<int>("OrderNumber");
 
             modelBuilder.Entity("EF_26.Models.Car", b =>
                 {
@@ -81,11 +82,11 @@ namespace EF_26.Migrations
                     b.Property<long>("OrderNum")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
-                        .HasDefaultValueSql("NEXT VALUE FOR OrderNumber");
+                        .HasDefaultValueSql("NEXT VALUE FOR ORDERNUMBER");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Order");
                 });
 
             modelBuilder.Entity("EF_26.Models.OrderTesty", b =>
@@ -102,11 +103,11 @@ namespace EF_26.Migrations
                     b.Property<long>("OrderNum")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("bigint")
-                        .HasDefaultValueSql("NEXT VALUE FOR OrderNumber");
+                        .HasDefaultValueSql("NEXT VALUE FOR ORDERNUMBER");
 
                     b.HasKey("Id");
 
-                    b.ToTable("OrderTesties");
+                    b.ToTable("OrderTesty");
                 });
 
             modelBuilder.Entity("EF_26.Models.RecordSales", b =>

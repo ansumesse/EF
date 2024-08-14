@@ -38,7 +38,20 @@ namespace EF_26
                 .HasDatabaseName("CarIndex")
                 .IsUnique(true)
                 .HasFilter("[CARID] IS NOT NULL");
-            
+
+            // Sequence is shared between Entities
+
+            modelBuilder.HasSequence<int>("OrderNumber")
+                .StartsAt(100) // start from
+                .IncrementsBy(2);
+
+
+            modelBuilder.Entity<Order>()
+                .Property(x => x.OrderNum)
+                .HasDefaultValueSql("NEXT VALUE FOR OrderNumber");
+              modelBuilder.Entity<OrderTesty>()
+                .Property(x => x.OrderNum)
+                .HasDefaultValueSql("NEXT VALUE FOR OrderNumber");
 
                
                 
@@ -49,5 +62,7 @@ namespace EF_26
         }
          public DbSet<RecordSales> RecordSales { get; set; }
          public DbSet<Car> Cars2 { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderTesty> OrderTesties { get; set; }
     }
 }
