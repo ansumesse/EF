@@ -32,6 +32,9 @@ namespace EF_26
                 .HasOne(x => x.RecordSales)
                 .WithMany(x => x.carRecordSales)
                 .HasForeignKey(x => x.RecordSaleId);
+
+            modelBuilder.Entity<Car>()
+                .HasIndex(x => x.CarId);
             
 
                
