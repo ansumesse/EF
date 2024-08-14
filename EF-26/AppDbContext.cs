@@ -53,6 +53,9 @@ namespace EF_26
                 .Property(x => x.OrderNum)
                 .HasDefaultValueSql("NEXT VALUE FOR OrderNumber");
 
+            // Data Seeding
+            modelBuilder.Entity<Car>()
+                .HasData(new Car() { CarId = 1, LicensePlate = "344", Make = "china", Model = "hundaye" });
                
                 
                 

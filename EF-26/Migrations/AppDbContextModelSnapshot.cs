@@ -49,7 +49,7 @@ namespace EF_26.Migrations
                         .HasDatabaseName("CarIndex")
                         .HasFilter("[CARID] IS NOT NULL");
 
-                    b.ToTable("Cars2");
+                    b.ToTable("Cars2", (string)null);
                 });
 
             modelBuilder.Entity("EF_26.Models.CarRecordSales", b =>
@@ -64,7 +64,7 @@ namespace EF_26.Migrations
 
                     b.HasIndex("LicensePlate");
 
-                    b.ToTable("CarRecordSales");
+                    b.ToTable("CarRecordSales", (string)null);
                 });
 
             modelBuilder.Entity("EF_26.Models.Order", b =>
@@ -85,7 +85,7 @@ namespace EF_26.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Orders");
+                    b.ToTable("Orders", (string)null);
                 });
 
             modelBuilder.Entity("EF_26.Models.OrderTesty", b =>
@@ -106,7 +106,7 @@ namespace EF_26.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("OrderTesties");
+                    b.ToTable("OrderTesties", (string)null);
                 });
 
             modelBuilder.Entity("EF_26.Models.RecordSales", b =>
@@ -129,7 +129,7 @@ namespace EF_26.Migrations
 
                     b.HasKey("RecordSaleId");
 
-                    b.ToTable("RecordSales");
+                    b.ToTable("RecordSales", (string)null);
                 });
 
             modelBuilder.Entity("EF_26.Models.CarRecordSales", b =>
