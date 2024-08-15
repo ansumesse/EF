@@ -3,12 +3,11 @@
   "WorkspaceRootPath": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EDC246F5-B9B8-4243-A458-DBEF56F65CB4}|EF-52\\EF-52.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-52\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EDC246F5-B9B8-4243-A458-DBEF56F65CB4}|EF-52\\EF-52.csproj|solutionrelative:ef-52\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EDC246F5-B9B8-4243-A458-DBEF56F65CB4}|EF-52\\EF-52.csproj|d:\\edu\\backend\\ef\\ef-practise\\ef-learning\\ef-52\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EDC246F5-B9B8-4243-A458-DBEF56F65CB4}|EF-52\\EF-52.csproj|solutionrelative:ef-52\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/LibraryPractise/True/SqlTable/dbo.Books.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +17,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-52\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "EF-52\\AppDbContext.cs",
-              "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-52\\AppDbContext.cs",
-              "RelativeToolTip": "EF-52\\AppDbContext.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAUwCYAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T23:03:01.702Z",
+              "DocumentIndex": 1,
+              "Title": "dbo.Books [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/LibraryPractise/True/SqlTable/dbo.Books.sql",
+              "ToolTip": "dbo.Books [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-08-15T23:32:37.931Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-52\\Program.cs",
               "RelativeDocumentMoniker": "EF-52\\Program.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-52\\Program.cs",
               "RelativeToolTip": "EF-52\\Program.cs",
-              "ViewState": "AQIAAGsAAAAAAAAAAAAswHgAAABYAAAA",
+              "ViewState": "AQIAAG4AAAAAAAAAAAAswH0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T00:35:19.386Z",
               "EditorCaption": ""

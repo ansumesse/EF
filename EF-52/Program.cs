@@ -122,6 +122,34 @@ namespace EF_52
 
 
             }
+
+            // Transactions
+            {
+                /*
+                 * to use Transacions must use TryCatch Blocks
+                 * each statement end with SaveChanges()
+                 * transaction must ends with commit to save it in database if statemnts Excuted correct
+                 * if no thro exception**/
+                using var transaction = context.Database.BeginTransaction();
+                try
+                {
+                    context.Books.Add(new Book() {  BookName = "transaction 1" });
+                    context.SaveChanges();
+
+                    transaction.CreateSavepoint("Save point"); // if I want to commit previous statement if it's correct
+
+                    context.Books.Add(new Book() { BookId = 20, BookName = "transaction 2" });
+                    context.SaveChanges();
+                    transaction.Commit();
+                }
+                catch (Exception)
+                {
+                    transaction.RollbackToSavepoint("Save point");
+                    transaction.Commit();
+                    transaction.Rollback(); // to return the databse to the stute before transaction happen
+                }
+                
+            }
             Console.ReadKey();
 
 
