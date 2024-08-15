@@ -67,6 +67,10 @@ namespace EF_52
                 context.Entry(book).Reference(x => x.Author).Load();
                 Console.WriteLine(book.Author.AuthorName);
             }
+            // Ignoring global filter
+            {
+                context.Books.IgnoreQueryFilters().Select(x => x.BookName);
+            }
             Console.ReadKey();
 
 

@@ -25,9 +25,11 @@ namespace EF_52
                  .HasMany(a => a.Nationalities)
                  .WithOne(n => n.Author)
                  .HasForeignKey(n => n.AuthorId);
-
-
-
+            // Global Filter
+            {
+                //modelBuilder.Entity<Book>()
+                //    .HasQueryFilter(x => x.AuthorId > 2);
+            }
            
         }
         public DbSet<Book> Books { get; set; }

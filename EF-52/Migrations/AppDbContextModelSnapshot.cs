@@ -35,7 +35,7 @@ namespace EF_52.Migrations
 
                     b.HasKey("AuthorId");
 
-                    b.ToTable("Authors");
+                    b.ToTable("Authors", (string)null);
                 });
 
             modelBuilder.Entity("EF_52.Models.Book", b =>
@@ -56,7 +56,7 @@ namespace EF_52.Migrations
 
                     b.HasIndex("AuthorId");
 
-                    b.ToTable("Books");
+                    b.ToTable("Books", (string)null);
                 });
 
             modelBuilder.Entity("EF_52.Models.Nationality", b =>
@@ -77,7 +77,7 @@ namespace EF_52.Migrations
 
                     b.HasIndex("AuthorId");
 
-                    b.ToTable("Nationalities");
+                    b.ToTable("Nationalities", (string)null);
                 });
 
             modelBuilder.Entity("EF_52.Models.Book", b =>
