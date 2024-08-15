@@ -17,7 +17,7 @@ namespace EF_26.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.7")
+                .HasAnnotation("ProductVersion", "8.0.8")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -49,7 +49,16 @@ namespace EF_26.Migrations
                         .HasDatabaseName("CarIndex")
                         .HasFilter("[CARID] IS NOT NULL");
 
-                    b.ToTable("Cars2", (string)null);
+                    b.ToTable("Cars2");
+
+                    b.HasData(
+                        new
+                        {
+                            LicensePlate = "344",
+                            CarId = 1,
+                            Make = "china",
+                            Model = "hundaye"
+                        });
                 });
 
             modelBuilder.Entity("EF_26.Models.CarRecordSales", b =>
@@ -64,7 +73,7 @@ namespace EF_26.Migrations
 
                     b.HasIndex("LicensePlate");
 
-                    b.ToTable("CarRecordSales", (string)null);
+                    b.ToTable("CarRecordSales");
                 });
 
             modelBuilder.Entity("EF_26.Models.Order", b =>
@@ -85,7 +94,7 @@ namespace EF_26.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("EF_26.Models.OrderTesty", b =>
@@ -106,7 +115,7 @@ namespace EF_26.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("OrderTesties", (string)null);
+                    b.ToTable("OrderTesties");
                 });
 
             modelBuilder.Entity("EF_26.Models.RecordSales", b =>
@@ -129,7 +138,7 @@ namespace EF_26.Migrations
 
                     b.HasKey("RecordSaleId");
 
-                    b.ToTable("RecordSales", (string)null);
+                    b.ToTable("RecordSales");
                 });
 
             modelBuilder.Entity("EF_26.Models.CarRecordSales", b =>
