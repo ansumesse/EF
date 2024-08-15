@@ -71,6 +71,30 @@ namespace EF_52
             {
                 context.Books.IgnoreQueryFilters().Select(x => x.BookName);
             }
+            // Add New Records and Related Data
+            {
+                context.Authors.Add(
+                    new Author()
+                    {
+                        AuthorName = "Moaz Anas",
+                        Books = new List<Book>()
+                        {
+                            new Book()
+                            {
+                                BookName = "franceais"
+                            }
+                        },
+                        Nationalities = new List<Nationality>()
+                        {
+                            new Nationality()
+                            {
+                                NationalityName = "japanese"
+                            }
+                        }
+                    }
+                    );
+                context.SaveChanges();
+            }
             Console.ReadKey();
 
 
