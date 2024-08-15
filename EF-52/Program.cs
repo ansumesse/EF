@@ -59,7 +59,7 @@ namespace EF_52
                 {
                     Console.WriteLine($"{book4.Author.AuthorName}, {item.NationalityName}");
                 }
-                    
+
             }
             // Explicit Loading
             {
@@ -94,6 +94,16 @@ namespace EF_52
                     }
                     );
                 context.SaveChanges();
+            }
+            // Update Records
+            {
+                var book = new Book() { BookId = 3, AuthorId = 5};
+                context.Update(book); // update the specified columns only and set the rest to null
+                var book2 = new Book() { BookId = 5, AuthorId = 5 };
+                context.Update(book2);
+                context.Entry(book2).Property(x => x.AuthorId).IsModified = true; // update the specified columns and the rest keep it as it is
+                context.SaveChanges();
+                Console.WriteLine("done");
             }
             Console.ReadKey();
 
