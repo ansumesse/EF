@@ -30,6 +30,14 @@ namespace EF_52
                 //modelBuilder.Entity<Book>()
                 //    .HasQueryFilter(x => x.AuthorId > 2);
             }
+
+            // change remove behavior to restricted
+            {
+                //modelBuilder.Entity<Author>()
+                //    .HasMany(a => a.Books)
+                //    .WithOne(b => b.Author)
+                //    .OnDelete(DeleteBehavior.Restrict);
+            }
            
         }
         public DbSet<Book> Books { get; set; }

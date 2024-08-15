@@ -105,10 +105,22 @@ namespace EF_52
             //    context.SaveChanges();
             //    Console.WriteLine("done");
             //}
-            // Remove Records
+            //// Remove Records
+            //{
+            //    context.Remove(new Book() { BookId = 11 });
+            //    context.SaveChanges();
+            //}
+
+            // Remove Related Data
             {
-                context.Remove(new Book() { BookId = 11 });
-                context.SaveChanges();
+                // Default Removing Behavior is Cascade : if we remove the Parent remove the children automatic
+                // but if we change the behavior in dbContext to Restricted : will return exception when 
+                // we try to delete parent that has children
+                // the third behavior is SetNull : it sets the foriegn key and we should ensure that is nullabal in childrens to null when we delete the parent
+
+                // to delete when it is restrictd remove the childrens first then parent
+
+
             }
             Console.ReadKey();
 
