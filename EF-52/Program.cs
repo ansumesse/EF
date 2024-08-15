@@ -47,11 +47,25 @@ namespace EF_52
                 foreach (var book in Books2)
                     Console.WriteLine($"{book.Books.BookId}, {book.Books.BookName}, {book.Authors?.AuthorId}");
             }
-            // Eager Loading
+            // Eager Loading it lows the performance because it loads all the Enties even if i didnot use it
             {
                 var book3 = context.Books.Include(a => a.Author).Single(b => b.AuthorId == 1);
                 Console.WriteLine(book3.Author.AuthorName);
-
+                var book4 = context.Books
+                    .Include(x => x.Author)
+                    .ThenInclude(x => x.Nationalities)
+                    .Single(x => x.AuthorId == 1);
+                foreach (var item in book4.Author.Nationalities)
+                {
+                    Console.WriteLine($"{book4.Author.AuthorName}, {item.NationalityName}");
+                }
+                    
+            }
+            // Explicit Loading
+            {
+                var book = context.Books.First(x => x.AuthorId == 2);
+                context.Entry(book).Reference(x => x.Author).Load();
+                Console.WriteLine(book.Author.AuthorName);
             }
             Console.ReadKey();
 
