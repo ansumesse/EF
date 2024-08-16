@@ -27,6 +27,7 @@ namespace EF_52
             //    foreach (var book in Books)
             //        Console.WriteLine($"{book.BookId}, {book.BookName}, {book.AuthorName}, {book.NationalityName}");
             //}
+
             //// Left Join Ex
             //{
             //    var Books2 = context.Books
@@ -59,8 +60,8 @@ namespace EF_52
             //    {
             //        Console.WriteLine($"{book4.Author.AuthorName}, {item.NationalityName}");
             //    }
-
             //}
+
             //// Explicit Loading
             //{
             //    var book = context.Books.First(x => x.AuthorId == 2);
@@ -71,6 +72,7 @@ namespace EF_52
             //{
             //    context.Books.IgnoreQueryFilters().Select(x => x.BookName);
             //}
+
             //// Add New Records and Related Data
             //{
             //    context.Authors.Add(
@@ -95,21 +97,29 @@ namespace EF_52
             //        );
             //    context.SaveChanges();
             //}
-            //// Update Records
-            //{
-            //    var book = new Book() { BookId = 3, AuthorId = 5};
-            //    context.Update(book); // update the specified columns only and set the rest to null
-            //    var book2 = new Book() { BookId = 5, AuthorId = 5 };
-            //    context.Update(book2);
-            //    context.Entry(book2).Property(x => x.AuthorId).IsModified = true; // update the specified columns and the rest keep it as it is
-            //    context.SaveChanges();
-            //    Console.WriteLine("done");
-            //}
-            //// Remove Records
-            //{
-            //    context.Remove(new Book() { BookId = 11 });
-            //    context.SaveChanges();
-            //}
+
+            // Update Records
+            {
+                //var book = new Book() { BookId = 3, AuthorId = 5 };
+                //context.Update(book); // update the specified columns only and set the rest to null
+                //var book2 = new Book() { BookId = 5, AuthorId = 5 };
+                //context.Update(book2);
+                //context.Entry(book2).Property(x => x.AuthorId).IsModified = true; // update the specified columns and the rest keep it as it is
+                //context.SaveChanges();
+                //Console.WriteLine("done");
+
+                // ExecuteUpdate
+                context.Books.Where(b => b.BookId > 13).ExecuteUpdate(b => b.SetProperty(b => b.AuthorId, 5));
+            }
+
+            // Remove Records
+            {
+                //context.Remove(new Book() { BookId = 11 });
+                //context.SaveChanges();
+
+                // ExecuteDelete
+                context.Books.Where(b => b.BookName == "franceais").ExecuteDelete();
+            }
 
             // Remove Related Data
             {
@@ -123,33 +133,33 @@ namespace EF_52
 
             }
 
-            // Transactions
-            {
-                /*
-                 * to use Transacions must use TryCatch Blocks
-                 * each statement end with SaveChanges()
-                 * transaction must ends with commit to save it in database if statemnts Excuted correct
-                 * if no thro exception**/
-                using var transaction = context.Database.BeginTransaction();
-                try
-                {
-                    context.Books.Add(new Book() {  BookName = "transaction 1" });
-                    context.SaveChanges();
+            //// Transactions
+            //{
+            //    /*
+            //     * to use Transacions must use TryCatch Blocks
+            //     * each statement end with SaveChanges()
+            //     * transaction must ends with commit to save it in database if statemnts Excuted correct
+            //     * if no thro exception**/
+            //    using var transaction = context.Database.BeginTransaction();
+            //    try
+            //    {
+            //        context.Books.Add(new Book() {  BookName = "transaction 1" });
+            //        context.SaveChanges();
 
-                    transaction.CreateSavepoint("Save point"); // if I want to commit previous statement if it's correct
+            //        transaction.CreateSavepoint("Save point"); // if I want to commit previous statement if it's correct
 
-                    context.Books.Add(new Book() { BookId = 20, BookName = "transaction 2" });
-                    context.SaveChanges();
-                    transaction.Commit();
-                }
-                catch (Exception)
-                {
-                    transaction.RollbackToSavepoint("Save point");
-                    transaction.Commit();
-                    transaction.Rollback(); // to return the databse to the stute before transaction happen
-                }
+            //        context.Books.Add(new Book() { BookId = 20, BookName = "transaction 2" });
+            //        context.SaveChanges();
+            //        transaction.Commit();
+            //    }
+            //    catch (Exception)
+            //    {
+            //        transaction.RollbackToSavepoint("Save point");
+            //        transaction.Commit();
+            //        transaction.Rollback(); // to return the databse to the stute before transaction happen
+            //    }
                 
-            }
+            //}
             Console.ReadKey();
 
 
