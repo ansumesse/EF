@@ -26,8 +26,7 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/LibraryPractise/True/SqlTable/dbo.Books.sql",
               "ToolTip": "dbo.Books [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-08-15T23:32:37.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-15T23:32:37.931Z"
             },
             {
               "$type": "Document",
@@ -37,7 +36,7 @@
               "RelativeDocumentMoniker": "EF-52\\Program.cs",
               "ToolTip": "D:\\Edu\\BackEnd\\EF\\EF-Practise\\EF-Learning\\EF-52\\Program.cs",
               "RelativeToolTip": "EF-52\\Program.cs",
-              "ViewState": "AQIAAF0AAAAAAAAAAAAAAHgAAABUAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHcAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-15T00:35:19.386Z",
               "EditorCaption": ""
